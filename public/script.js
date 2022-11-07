@@ -72,6 +72,7 @@ async function saveVideo(e) {
 }
 
 async function clickVideo(event, id) {
+
   if (event.target.classList.contains("delete-btn")) {
     const fetchBody = {
       id: event.target.value,
