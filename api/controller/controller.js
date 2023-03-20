@@ -33,7 +33,7 @@ const updateList = async (req, res) => {
 
         res.status(201).send("created");
       } catch (error) {
-        console.log(error);
+        console.log({ error });
       }
     }
   } else {
