@@ -8,7 +8,7 @@ const getAll = async (req, res) => {
       res.status(200).json(dataList);
     }
   } catch (error) {
-    console.log(error);
+    console.log("Hi" + error);
     res.status(204).send([]);
   }
 };
